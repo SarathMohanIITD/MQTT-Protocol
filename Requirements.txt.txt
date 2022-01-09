@@ -1,0 +1,12 @@
+Environment:
+1. python 3.8.8, Windows OS
+2. Install 'mosquitto' which is an MQTT Broker
+3. Install 'paho' library in python
+   pip install paho-mqtt
+4. Set the port 1883 in 'listen' mode
+
+How to run:
+1. Open sub.py and pub.py on 2 different terminals
+2. Follow the instructions in the publisher menu to control the LED in te subscriber side
+3. sub.py will be in an infinite loop listening to the message from the publisher
+4. There will be an option to exit from the pub.py afer turning off the LED 
